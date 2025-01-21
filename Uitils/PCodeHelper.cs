@@ -684,6 +684,7 @@ namespace PbdViewer.Uitils
 			case 325:
 			case 333:
 			case 334:
+			case 339:
 				result = new PCodeParser110(pbFunction);
 				break;
 			}
