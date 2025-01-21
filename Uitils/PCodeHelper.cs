@@ -76,7 +76,8 @@ namespace PbdViewer.Uitils
 					PCodePositon = num,
 					DebugLine = (dictionary2.ContainsKey(num) ? new ushort?(dictionary2[num]) : null),
 					PCodeOp = uShort,
-					PCodeParam = BufferHelper.GetBuffer(pbFunction.PCodeBytes, num + 2, pCodeLen * 2)
+					PCodeParam = BufferHelper.GetBuffer(pbFunction.PCodeBytes, num + 2, pCodeLen * 2),
+					SCode = ""
 				};
 				if (codeLine != null)
 				{
